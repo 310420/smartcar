@@ -24,7 +24,7 @@ namespace LeapMotionDriverWindow
 
         protected override void BuildSettingList()
         {
-            AddingSetting("swipeDetectionDelay", 700);
+            AddingSetting("swipeDetectionDelay", 1000);
             AddingSetting("closeWindowDelay", 1000);
             AddingSetting("topAnimationSpeed", 0.2);
             AddingSetting("windowDefaultWidth", 640);
